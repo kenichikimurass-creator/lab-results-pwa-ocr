@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import Tesseract from 'tesseract.js';
 import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis, Legend, CartesianGrid } from 'recharts';
-import type { Dropbox } from '@dropbox/dropbox-sdk';
+import type { Dropbox } from 'dropbox';
 import { compressImage, objectUrl } from './image';
 import { decryptJson, encryptJson } from './crypto';
 import { AppData, defaultData, Exam, LabResult } from './types';

@@ -1,4 +1,4 @@
-import { Dropbox, DropboxAuth } from '@dropbox/dropbox-sdk';
+import { Dropbox, DropboxAuth } from 'dropbox';
 
 const CLIENT_ID = import.meta.env.VITE_DROPBOX_CLIENT_ID as string | undefined;
 const TOKEN_KEY = 'lab_results_dropbox_token';

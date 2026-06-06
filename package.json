@@ -9,7 +9,7 @@
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
-    "@dropbox/dropbox-sdk": "^10.34.0",
+    "dropbox": "^10.34.0",
     "@vitejs/plugin-react": "^5.0.0",
     "vite": "^7.0.0",
     "typescript": "^5.8.3",
